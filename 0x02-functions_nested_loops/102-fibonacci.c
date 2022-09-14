@@ -26,7 +26,7 @@ int main(void)
 			if (time < 50)
 			{
 				curr = (prev2 + prev1);
-				printf("%1d, ", curr);
+				printf("%ld, ", curr);
 
 				prev1 = prev2;
 				prev2 = curr;
@@ -34,7 +34,7 @@ int main(void)
 			else
 			{
 				curr = (prev2 + prev1);
-				printf("%1d", curr);
+				printf("%ld", curr);
 			}
 		}
 		else
