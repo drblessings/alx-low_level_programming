@@ -33,7 +33,7 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(((outp / 100) % 10) + 48);
-					_putchar(((outp / 10) % 10 + 48);
+					_putchar(((outp / 10) % 10) + 48);
 					_putchar((outp % 10) + 48);
 				}
 			}
