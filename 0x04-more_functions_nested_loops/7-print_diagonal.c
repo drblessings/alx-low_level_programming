@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - diagonal lines made of backlashes
- * @n: number of \ to be printed
+ * @n: number of diagonals to be printed
  * Return: void
  */
 
