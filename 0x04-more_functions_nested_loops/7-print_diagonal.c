@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - diagonal lines made of backlashes
- * @n: number of diagonals to be printed
+ * @n: number of \ to be printed
  * Return: void
  */
 
@@ -15,7 +15,6 @@ void print_diagonal(int n)
 		ii = 0
 		while (ii < i)
 		{
-			_putchar('');
 			ii++;
 		}
 
