@@ -23,4 +23,4 @@ int main(void)
 	}
 	printf("%ld\n", larg_prim);
 	return (0);
-
+}
