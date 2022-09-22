@@ -41,7 +41,7 @@ char *infinte_add(char *n1, char *n2, char *r, int size_r)
 	{
 		m = r[k];
 		r[k] = r[1];
-		r[1] = m;
+		r[l] = m;
 	}
 	return (r);
 }
